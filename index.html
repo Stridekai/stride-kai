@@ -108,10 +108,10 @@ html,body{margin:0;padding:0;font-family:'DM Sans',sans-serif;color:#1a1a1a;}
 .sk-shots-title{font-family:'Playfair Display',serif;font-size:clamp(28px,5vw,44px);font-weight:900;color:#fff;margin-bottom:8px;line-height:1.1;}
 .sk-shots-title em{font-style:italic;color:#f5831f;}
 .sk-shots-sub{font-size:15px;color:rgba(255,255,255,0.45);margin:0 auto 44px;max-width:420px;line-height:1.6;}
-.sk-shots-row{display:flex;gap:16px;justify-content:center;overflow-x:auto;padding-bottom:8px;scrollbar-width:none;}
-.sk-shots-row::-webkit-scrollbar{display:none;}
-.sk-shot{flex-shrink:0;width:200px;text-align:center;}
-.sk-shot img{width:200px;border-radius:20px;display:block;box-shadow:0 20px 60px rgba(0,0,0,0.5);transition:transform 0.25s,box-shadow 0.25s;}
+.sk-shots-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;padding-bottom:8px;}
+.sk-shot{flex-shrink:0;width:180px;text-align:center;}
+.sk-shot img{width:180px;border-radius:20px;display:block;box-shadow:0 20px 60px rgba(0,0,0,0.5);transition:transform 0.25s,box-shadow 0.25s;}
+@media(max-width:600px){.sk-shot{width:140px;}.sk-shot img{width:140px;}}
 .sk-shot img:hover{transform:translateY(-8px) scale(1.02);box-shadow:0 32px 80px rgba(0,0,0,0.6);}
 .sk-shot-label{margin-top:12px;font-size:12px;color:rgba(255,255,255,0.35);}
 .sk-shots-cta{margin-top:40px;}
@@ -240,11 +240,11 @@ html,body{margin:0;padding:0;font-family:'DM Sans',sans-serif;color:#1a1a1a;}
   <h2 class="sk-shots-title">Clean. Simple. <em>Built to keep you going.</em></h2>
   <p class="sk-shots-sub">Your phone stays in your pocket. Stride Kai handles every second.</p>
   <div class="sk-shots-row">
-    <div class="sk-shot"><img src="https://stridekai.github.io/stride-kai/01.png" alt="Stride Kai app" loading="lazy"><span class="sk-shot-label">The app</span></div>
-    <div class="sk-shot"><img src="https://stridekai.github.io/stride-kai/03.png" alt="Fast walk phase" loading="lazy"><span class="sk-shot-label">Fast walk phase</span></div>
-    <div class="sk-shot"><img src="https://stridekai.github.io/stride-kai/02.png" alt="Slow walk recovery" loading="lazy"><span class="sk-shot-label">Slow walk recovery</span></div>
-    <div class="sk-shot"><img src="https://stridekai.github.io/stride-kai/05.png" alt="Session complete" loading="lazy"><span class="sk-shot-label">Session complete</span></div>
-    <div class="sk-shot"><img src="https://stridekai.github.io/stride-kai/04.png" alt="Medal collection" loading="lazy"><span class="sk-shot-label">Medal collection</span></div>
+    <div class="sk-shot"><img src="01.png" alt="Stride Kai app" ><span class="sk-shot-label">The app</span></div>
+    <div class="sk-shot"><img src="03.png" alt="Fast walk phase" ><span class="sk-shot-label">Fast walk phase</span></div>
+    <div class="sk-shot"><img src="02.png" alt="Slow walk recovery" ><span class="sk-shot-label">Slow walk recovery</span></div>
+    <div class="sk-shot"><img src="04.png" alt="Medal collection" ><span class="sk-shot-label">Medal collection</span></div>
+    <div class="sk-shot"><img src="05.png" alt="Session complete" ><span class="sk-shot-label">Session complete</span></div>
   </div>
   <div class="sk-shots-cta"><a href="https://apps.apple.com/us/app/stride-kai/id6763914541">Start Your Free 3-Day Trial →</a></div>
 </div>
