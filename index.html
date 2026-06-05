@@ -126,10 +126,10 @@ html,body{margin:0;padding:0;font-family:'DM Sans',sans-serif;color:#1a1a1a;}
 .ms-htag{font-size:9px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.8);margin-bottom:3px;}
 .ms-hname{font-size:13px;font-weight:800;color:#fff;line-height:1.2;}
 .ms-body{display:grid;grid-template-columns:1fr 48px 1fr;gap:1px;background:#ddd;}
-.ms-l{background:#fff8f8;padding:9px 10px;}
-.ms-r{background:#f5fff5;padding:9px 10px;}
-.ms-la{background:#fdf2f2;padding:9px 10px;}
-.ms-ra{background:#f0fbf0;padding:9px 10px;}
+.ms-l{background:#fff8f8;padding:12px 10px;}
+.ms-r{background:#f5fff5;padding:12px 10px;}
+.ms-la{background:#fdf2f2;padding:12px 10px;}
+.ms-ra{background:#f0fbf0;padding:12px 10px;}
 .ms-m{background:#fff;display:flex;align-items:center;justify-content:center;}
 .ms-ma{background:#fafafa;display:flex;align-items:center;justify-content:center;}
 .ms-vs{font-family:Impact,'Arial Black',sans-serif;font-size:16px;font-weight:900;color:#FFD700;display:block;line-height:1;transform:skewX(-12deg) rotate(-5deg);text-shadow:2px 2px 0 #000,-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,1px 1px 0 #c0392b,3px 3px 0 rgba(0,0,0,0.3);}
@@ -171,7 +171,7 @@ html,body{margin:0;padding:0;font-family:'DM Sans',sans-serif;color:#1a1a1a;}
 
   /* HERO */
   .sk-hero{padding:56px 20px;}
-  .sk-hero h1{font-size:42px;}
+  .sk-hero h1{font-size:32px;white-space:nowrap;}
   .sk-hero-body{font-size:14px;}
   .sk-hero-btns{flex-direction:column;align-items:center;}
   .sk-btn-primary,.sk-btn-secondary{width:100%;text-align:center;padding:14px 20px;}
@@ -381,8 +381,8 @@ html,body{margin:0;padding:0;font-family:'DM Sans',sans-serif;color:#1a1a1a;}
   <h1>Stop Counting Steps.<br><em>Start Burning Fat.</em></h1>
   <p class="sk-hero-body">The method developed by Dr. Hiroshi Nose at Japan's Shinshu University.<br>30 minutes. Alternating rhythm. Zero step counting, ever.<br><strong>Try it free for 3 days. No commitment.</strong></p>
   <div class="sk-hero-btns">
-    <a href="https://stridekai.onelink.me/5nWn/mfd1xzjm" class="sk-btn-primary">Start Free 3-Day Trial &rarr;</a>
-    <a href="https://stridekai.onelink.me/5nWn/mfd1xzjm" class="sk-btn-secondary">Get it on Android</a>
+    <a href="https://stridekai.onelink.me/5nWn/mfd1xzjm" class="sk-btn-primary" style="display:inline-flex;align-items:center;gap:8px;"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>Start Free 3-Day Trial &rarr;</a>
+    <a href="https://stridekai.onelink.me/5nWn/mfd1xzjm" class="sk-btn-secondary" style="display:inline-flex;align-items:center;gap:8px;"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993.0001.5511-.4482.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993 0 .5511-.4482.9997-.9993.9997m11.4045-6.02l1.9973-3.4592a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.503C15.5902 8.2439 13.8533 7.8508 12 7.8508s-3.5902.3931-5.1367 1.0989L4.841 5.4467a.4161.4161 0 00-.5677-.1521.4157.4157 0 00-.1521.5676l1.9973 3.4592C2.6889 11.1867.3432 14.6589 0 18.761h24c-.3435-4.1021-2.6892-7.5743-6.1185-9.4396"/></svg>Get it on Android</a>
   </div>
   <div class="sk-hero-badge">
     <span class="sk-badge">Free 3-Day Trial</span>
@@ -493,50 +493,51 @@ html,body{margin:0;padding:0;font-family:'DM Sans',sans-serif;color:#1a1a1a;}
         <div class="ms-top-h">The Walking Method That Burns More Fat in 30 Minutes Than 10,000 Steps Ever Could...</div>
       </div>
       <div class="ms-heads">
-        <div class="ms-hl"><div class="ms-htag">What you use now</div><div class="ms-hname">Step Counting</div></div>
+        <div class="ms-hl"><div class="ms-htag">What you currently use</div><div class="ms-hname">Step Counting</div><div style="font-size:11px;color:rgba(255,255,255,0.8);margin-top:3px;line-height:1.3;">Smartwatches, Fitbits, pedometer apps, daily step goals</div></div>
         <div class="ms-hm"><span style="font-family:Impact,sans-serif;font-size:32px;font-weight:900;color:#FFD700;transform:skewX(-12deg) rotate(-5deg) scale(1.1);display:block;text-shadow:3px 3px 0 #000,-3px -3px 0 #000,3px -3px 0 #000,-3px 3px 0 #000,1px 1px 0 #c0392b;">VS</span></div>
-        <div class="ms-hr"><div class="ms-htag">改 What works</div><div class="ms-hname">Stride Kai</div></div>
+        <div class="ms-hr"><div class="ms-htag">改 What actually works</div><div class="ms-hname">Stride Kai</div><div style="font-size:11px;color:rgba(255,255,255,0.8);margin-top:3px;line-height:1.3;">Dr. Nose's Japanese interval walking, 30 minutes, zero step counting</div></div>
       </div>
       <div class="ms-body">
-        <div class="ms-l"><div class="ms-cat">Daily time</div><div class="ms-val">10+ hours walking</div></div>
+        <div class="ms-l"><div class="ms-cat">Daily time required</div><div class="ms-val" style="font-weight:400;font-size:12px;color:#5a1010;line-height:1.5;">1.5 to 2 hours of walking every day to hit 10,000 steps, and your body stops responding after 6 weeks anyway.</div></div>
         <div class="ms-m"><span class="ms-vs">VS</span></div>
-        <div class="ms-r"><div class="ms-cat">Daily time</div><div class="ms-val">30 minutes. Done.</div></div>
+        <div class="ms-r"><div class="ms-cat">Daily time required</div><div class="ms-val" style="font-weight:400;font-size:12px;color:#1a3d1a;line-height:1.5;">30 minutes. That is all you need to do per day. Session complete, no open targets hanging over you.</div></div>
 
-        <div class="ms-la"><div class="ms-cat">Origin</div><div class="ms-val">1965 marketing team</div></div>
+        <div class="ms-la"><div class="ms-cat">Where it came from</div><div class="ms-val" style="font-weight:400;font-size:12px;color:#5a1010;line-height:1.5;">Invented in 1965 by a pedometer company to sell more devices. Not a doctor, not a researcher, a marketing team.</div></div>
         <div class="ms-ma"><span class="ms-vs">VS</span></div>
-        <div class="ms-ra"><div class="ms-cat">Origin</div><div class="ms-val">20 years Japanese research</div></div>
+        <div class="ms-ra"><div class="ms-cat">Where it came from</div><div class="ms-val" style="font-weight:400;font-size:12px;color:#1a3d1a;line-height:1.5;">20 years of clinical research by Dr. Hiroshi Nose at Shinshu University Japan. Peer-reviewed, published, and replicated.</div></div>
 
-        <div class="ms-l"><div class="ms-cat">Fat loss</div><div class="ms-val">Zero improvement (Lancet 2016)</div></div>
+        <div class="ms-l"><div class="ms-cat">What the research says</div><div class="ms-val" style="font-weight:400;font-size:12px;color:#5a1010;line-height:1.5;">A 2016 Lancet study of 800 adults found no improvement in weight, blood pressure, or fitness after a full year of tracker use. 90% abandoned the device.</div></div>
         <div class="ms-m"><span class="ms-vs">VS</span></div>
-        <div class="ms-r"><div class="ms-cat">Fat loss</div><div class="ms-val">Proven in Dr. Nose's studies</div></div>
+        <div class="ms-r"><div class="ms-cat">What the research says</div><div class="ms-val" style="font-weight:400;font-size:12px;color:#1a3d1a;line-height:1.5;">In Dr. Nose's studies, participants burned more fat, reduced blood pressure, lowered cholesterol, and built leg strength, all in 30 minutes a day.</div></div>
 
-        <div class="ms-la"><div class="ms-cat">What counts</div><div class="ms-val">Cooking, typing, 2am shuffle</div></div>
+        <div class="ms-la"><div class="ms-cat">What gets counted</div><div class="ms-val" style="font-weight:400;font-size:12px;color:#5a1010;line-height:1.5;">Cooking, typing, gesturing on calls, the 2am bathroom shuffle. Your watch cannot tell the difference, it calls it all exercise.</div></div>
         <div class="ms-ma"><span class="ms-vs">VS</span></div>
-        <div class="ms-ra"><div class="ms-cat">What counts</div><div class="ms-val">The 30-min session only</div></div>
+        <div class="ms-ra"><div class="ms-cat">What gets counted</div><div class="ms-val" style="font-weight:400;font-size:12px;color:#1a3d1a;line-height:1.5;">The 30-minute session. Nothing else. Phantom steps, phantom progress, and phantom guilt do not exist here.</div></div>
 
-        <div class="ms-l"><div class="ms-cat">Plateau</div><div class="ms-val">Hits in 6 weeks</div></div>
+        <div class="ms-l"><div class="ms-cat">The plateau</div><div class="ms-val" style="font-weight:400;font-size:12px;color:#5a1010;line-height:1.5;">Your body adapts to steady walking in 4 to 6 weeks. You keep showing up, the fat loss stopped months ago.</div></div>
         <div class="ms-m"><span class="ms-vs">VS</span></div>
-        <div class="ms-r"><div class="ms-cat">Plateau</div><div class="ms-val">Never. Alternating intensity.</div></div>
+        <div class="ms-r"><div class="ms-cat">The plateau</div><div class="ms-val" style="font-weight:400;font-size:12px;color:#1a3d1a;line-height:1.5;">Alternating fast and slow phases prevent metabolic adaptation. Your body keeps working every single session, no plateau.</div></div>
 
-        <div class="ms-la"><div class="ms-cat">Motivation</div><div class="ms-val">Guilt when you miss</div></div>
+        <div class="ms-la"><div class="ms-cat">Motivation system</div><div class="ms-val" style="font-weight:400;font-size:12px;color:#5a1010;line-height:1.5;">Guilt-driven. Miss 10,000 steps and the app marks you red. Failure built into the design, 90% quit within a year.</div></div>
         <div class="ms-ma"><span class="ms-vs">VS</span></div>
-        <div class="ms-ra"><div class="ms-cat">Motivation</div><div class="ms-val">Medals when you show up</div></div>
+        <div class="ms-ra"><div class="ms-cat">Motivation system</div><div class="ms-val" style="font-weight:400;font-size:12px;color:#1a3d1a;line-height:1.5;">Achievement-driven. Bronze, Silver, Gold, Platinum, Diamond medals earned by showing up. Pride, not shame, no number to miss.</div></div>
       </div>
       <div class="ms-cost">
-        <div class="ms-cost-lbl">The real cost</div>
+        <div class="ms-cost-lbl">The real cost of continuing</div>
         <div class="ms-cost-h">Step counting for a year cost you <em>16 full days of your life.</em></div>
       </div>
       <div class="ms-stats">
-        <div class="ms-stat"><div class="ms-stat-title">Per week</div><div class="ms-stat-bad"><div class="ms-stat-num">10+</div><div class="ms-stat-unit">hrs counting</div></div><div class="ms-stat-good"><div class="ms-stat-num">2.5</div><div class="ms-stat-unit">hrs Stride Kai</div></div></div>
-        <div class="ms-stat"><div class="ms-stat-title">Per year</div><div class="ms-stat-bad"><div class="ms-stat-num">520</div><div class="ms-stat-unit">hrs wasted</div></div><div class="ms-stat-good"><div class="ms-stat-num">390</div><div class="ms-stat-unit">hrs back to you</div></div></div>
-        <div class="ms-stat"><div class="ms-stat-title">Cal/min</div><div class="ms-stat-bad"><div class="ms-stat-num">3-4</div><div class="ms-stat-unit">steady walk</div></div><div class="ms-stat-good"><div class="ms-stat-num">13+</div><div class="ms-stat-unit">with afterburn</div></div></div>
-        <div class="ms-stat"><div class="ms-stat-title">12 months</div><div class="ms-stat-bad"><div class="ms-stat-num">Zero</div><div class="ms-stat-unit">per Lancet</div></div><div class="ms-stat-good"><div class="ms-stat-num">Real</div><div class="ms-stat-unit">Dr. Nose studies</div></div></div>
+        <div class="ms-stat"><div class="ms-stat-title">Hours per week</div><div class="ms-stat-bad"><div class="ms-stat-num">10+</div><div class="ms-stat-unit">hrs step counting</div></div><div class="ms-stat-good"><div class="ms-stat-num">2.5</div><div class="ms-stat-unit">hrs Stride Kai</div></div></div>
+        <div class="ms-stat"><div class="ms-stat-title">Hours per year</div><div class="ms-stat-bad"><div class="ms-stat-num">520</div><div class="ms-stat-unit">hrs on zero results</div></div><div class="ms-stat-good"><div class="ms-stat-num">130</div><div class="ms-stat-unit">hrs, 390 back to you</div></div></div>
+        <div class="ms-stat"><div class="ms-stat-title">Fat burn/min</div><div class="ms-stat-bad"><div class="ms-stat-num">3-4</div><div class="ms-stat-unit">cal/min steady</div></div><div class="ms-stat-good"><div class="ms-stat-num">13+</div><div class="ms-stat-unit">cal/min afterburn</div></div></div>
+        <div class="ms-stat"><div class="ms-stat-title">After 12 months</div><div class="ms-stat-bad"><div class="ms-stat-num">Zero</div><div class="ms-stat-unit">per Lancet 2016</div></div><div class="ms-stat-good"><div class="ms-stat-num">Real</div><div class="ms-stat-unit">Dr. Nose's studies</div></div></div>
       </div>
       <div class="ms-gut">
-        <p class="ms-gut-main">Every week you wait costs you 7.5 hours and <em>zero results.</em></p>
+        <p class="ms-gut-main">16 full days of your life, every year, spent on a method <em>invented to sell a gadget.</em></p>
+        <p style="font-size:11px;color:#888;margin-top:4px;">Every week you wait costs you 7.5 hours and zero results. The trial is free. The clock is not.</p>
       </div>
       <div class="ms-bot">
-        <p class="ms-bot-quote">"You deserved better than a marketing number."</p>
+        <p class="ms-bot-quote">"You showed up every day. You deserved better than that."</p>
         <a href="https://stridekai.onelink.me/5nWn/mfd1xzjm" class="ms-bot-cta">Try Free Now</a>
       </div>
     </div>
